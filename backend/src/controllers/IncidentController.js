@@ -4,7 +4,7 @@ const connection = require('../database/connection');
 
 module.exports = {
 
-  /*  async index(request, response) {
+    async index(request, response) {
 
         const { page = 1} = request.query;
 
@@ -20,7 +20,7 @@ module.exports = {
 
         return response.json(list);
 
-    }, */
+    },
 
     async create(request, response){
         const {title, description, value} = request.body;
